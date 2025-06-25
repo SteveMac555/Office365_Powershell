@@ -3,3 +3,5 @@ Collection of PowerShell Scripts to Manage/Use with Offic365 &amp; Entra and Win
 
 
 .\Get-InactiveLicensedUsers.ps1 -InactiveDays 180 -OutputPath "users.csv"
+
+.\Remove-ADComputers.ps1 -CsvPath "pcs.csv" -WhatIf -Confirm
